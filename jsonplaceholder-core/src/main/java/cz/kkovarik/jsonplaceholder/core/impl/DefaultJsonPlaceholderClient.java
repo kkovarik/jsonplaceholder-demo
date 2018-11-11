@@ -70,8 +70,6 @@ public class DefaultJsonPlaceholderClient implements JsonPlaceholderClient {
         Assert.notNull(webClient, "the webClient must not be null");
     }
 
-    // konstruktor co čte timeouty (connect + socket)
-
     @Override
     public Mono<UserInfo> userInfo(final Long userId) {
         Assert.notNull(userId, "the userId must not be null");

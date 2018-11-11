@@ -1,0 +1,11 @@
+{
+  "name" : "John Doe",
+  "username" : "doe",
+  "email" : "user@email.cz",
+  "posts": [
+    {
+      "id" : "1",
+      "title" : "post-title"
+    }
+  ]
+}

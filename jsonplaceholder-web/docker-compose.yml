@@ -1,0 +1,6 @@
+version: "2"
+services:
+  jsonplaceholder:
+    build: .
+    ports:
+    - "8080:8080"
